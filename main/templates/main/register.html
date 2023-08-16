@@ -1,0 +1,21 @@
+{% extends 'main/base.html' %}
+{% load crispy_forms_tags %}  
+
+<main>
+    {% block main %}
+        {% if f %}  
+            <div class="font">
+                <h1> You Have Already Registered</h1>
+            </div> 
+        {% else %}
+            <h1>Register Here</h1>
+            <form action="" method="post">
+                {% csrf_token %}
+                {{form|crispy}}
+                <button type="submit">Submit</button>
+            </form>
+        {% endif %}
+
+    {% endblock main %}
+        
+</main>

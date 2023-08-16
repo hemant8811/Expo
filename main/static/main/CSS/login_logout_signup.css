@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni&family=Poppins:wght@100&family=Quicksand:wght@300;400;600&family=Work+Sans:ital,wght@0,100;0,300;1,200;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni&family=Poppins:wght@100&family=Quicksand:wght@300;400;600&family=Work+Sans:ital,wght@0,100;0,300;1,200;1,600&display=swap');
+/* font-family: 'Libre Bodoni', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Work Sans', sans-serif; */
+/* font-family: 'Libre Bodoni', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Work Sans', sans-serif; */
+
+.login-form {
+    background-color:var(--main-form-color);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   font-family: 'Quicksand', sans-serif;
+   width: 569px;
+   height: 273px;
+   position: absolute;
+   top: 165px;
+   left: 495px;
+   border-radius: 10px;
+   color: var(--main-text-color);
+   align-content: space-between;
+  
+}
+.login-form input{
+    width: 30vw;
+height: 40px;
+border: 2px solid var(--main-bg-color);
+border-radius: 5px;
+background-color: black;
+color: var(--main-text-color);
+font-family: 'Quicksand', sans-serif;
+font-size: larger;
+padding: 0px 10px;
+margin: 10px 0px;
+}
+.signup-form {
+   background-color:var(--main-form-color);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   font-family: 'Quicksand', sans-serif;
+   width: 570px;
+   height: 525;
+   position: absolute;
+   top: 90ssspx;
+   left: 495px;
+   border-radius: 10px;
+   color: var(--main-text-color);
+   align-content: space-between;
+}
+.signup-form input{
+    width: 30vw;
+height: 40px;
+border: 2px solid var(--main-bg-color);
+border-radius: 5px;
+background-color: black;
+color: var(--main-text-color);
+font-family: 'Quicksand', sans-serif;
+font-size: larger;
+padding: 0px 10px;
+margin: 10px 0px;
+}
+.controls ul , .help-block{
+   display: none;
+}

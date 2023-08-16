@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni&family=Poppins:wght@100&family=Quicksand:wght@300;400;600&family=Work+Sans:ital,wght@0,100;0,300;1,200;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni&family=Poppins:wght@100&family=Quicksand:wght@300;400;600&family=Work+Sans:ital,wght@0,100;0,300;1,200;1,600&display=swap');
+/* font-family: 'Libre Bodoni', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Work Sans', sans-serif; */
+/* font-family: 'Libre Bodoni', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Work Sans', sans-serif; */
+.click{
+    color: var(--main-bg-color);
+    font-style: italic;
+}
+.register-button{
+    background-color:var(--main-button-color);
+    width: 300px;
+    height: 40px;
+    color: var(--main-text-color);
+    border-radius: 5px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: larger;
+}
+.hover-button:hover{
+    background-color: var(--main-hover-color);
+}
+.title-middle{
+    display: flex;
+   justify-content: center;
+}
+.myfont{
+    font-family: 'Work Sans', sans-serif;
+}

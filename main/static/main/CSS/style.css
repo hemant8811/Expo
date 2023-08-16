@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni&family=Poppins:wght@100&family=Quicksand:wght@300;400;600&family=Work+Sans:ital,wght@0,100;0,300;1,200;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni&family=Poppins:wght@100&family=Quicksand:wght@300;400;600&family=Work+Sans:ital,wght@0,100;0,300;1,200;1,600&display=swap');
+/* font-family: 'Libre Bodoni', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Work Sans', sans-serif; */
+/* font-family: 'Libre Bodoni', serif;
+
+font-family: 'Quicksand', sans-serif;
+font-family: 'Work Sans', sans-serif; */
+:root{
+    --main-bg-color:rgb(248, 220, 12);
+    --main-text-color:white;
+    --main-nav-color:rgb(17, 17, 17);
+    --main-button-color:none;
+    --main-form-color:rgb(48, 37, 37);
+    --main-hover-color:rgb(0, 0, 0);
+}
+
+.text-white{
+    color: aliceblue;
+}
+
+*{
+    margin: 0;
+    padding: 0;  
+    ; 
+}
+header{
+    position: sticky;
+}
+a{
+    color: aliceblue;
+}
+.navbar{
+    display: flex;
+    height: 12vh;
+    background-color: var(--main-nav-color);
+    font-family: 'Quicksand', sans-serif;
+    font-size: larger;
+    
+    
+}
+.navtext ul li{
+    display: inline-block;
+    margin: 12px 30px;
+    color: aliceblue;
+}
+.navtext ul li a{
+    color: aliceblue;
+}
+.navtext ul li a:hover{
+    font-weight: bolder;
+}
+.left-navbar{
+    display: flex;
+    width: 55em;
+    align-items: center;
+    color: white;
+}
+.right-navbar{
+    padding-right: 50px;
+    display: flex;
+    width: 45em;
+    justify-content: flex-end;
+    font-size: 25px;
+    align-items: center;
+}
+.right-navbar a {
+    color: white; 
+}
+.right-navbar p {
+    color: white; 
+}
+a{
+    text-decoration: none;
+}
+.logoimg img{
+   width: 120px;
+}
+.navtext{
+    display: flex;
+    justify-content:flex-end;
+    width: 80em;
+}
+.logoimg {
+   margin-left: 50px;
+}
+.foot-down{
+    display: flex;
+    justify-content: center;
+    background-color: var(--main-nav-color);
+    color: var(--main-text-color);
+    font-family: 'Quicksand', sans-serif;   
+}
+main{
+    background-color: var(--main-bg-color);
+    min-height: 500px;
+}
+.slider-content{
+    display: flex;
+    
+}
+.slider{
+    display: flex;
+    width: 40em;
+    padding: 30px;
+    height: 45vh;   
+  
+}
+.content {
+    width: 70em;  
+    font-family: 'Quicksand', sans-serif;
+    padding: 20px 50px 20px 0px;
+    color: black;
+    
+}
+.text1{
+    font-weight: bold;
+    line-height: 1.6;  
+}
+
+.slide{
+    display: flex;
+    height: 320px;
+    width: 525px;
+    border:2px solid rgb(244, 104, 128);
+    border-radius: 5px;
+    overflow: hidden;
+   
+}
+
+.slider img{
+    width:525px;
+    animation: slider 15s ease-in-out 0s infinite alternate;
+    
+}
+@keyframes slider {
+    0%{
+      transform: translate(0);
+    }
+    100%{
+        transform: translate(-70vw);
+
+    }
+    
+}
+/* Video   and content*/
+.video-content{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background-color:black;
+    
+    
+}
+.video-content video{
+   width: 75vw; 
+   opacity:0.450; 
+
+}
+.video-text{
+    position:absolute;
+    top: 40%;
+    left:20%;
+    color: aliceblue;
+    font-family: 'Work Sans', sans-serif;
+    height: 250px;
+    width: 925px;
+   
+}
+.video-text p{
+ display: inline-block;
+ width: 24em;
+padding-left: 74px;
+}
+.video-text a{
+    font-size:xx-large;
+    color: fuchsia;
+
+}
+.video-text h1, .video-text h2{
+   position: relative;
+   /* left:-10em; */
+   display: flex;
+   justify-content: center;  
+                
+}
+.sponsers {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 1000;
+}
+.sponsers-images img{
+    margin: 60px;  
+}
+footer{
+    background-color:var(--main-nav-color);
+    color: aliceblue;
+    font-family: 'Work Sans', sans-serif;
+
+}
+.foot-up{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 40px 100px;
+    margin: 0 20vw;
+}
+.left-foot{
+    display: flex;
+    flex-direction: column;   
+}

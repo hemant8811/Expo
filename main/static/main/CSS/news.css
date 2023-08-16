@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni&family=Poppins:wght@100&family=Quicksand:wght@300;400;600&family=Work+Sans:ital,wght@0,100;0,300;1,200;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni&family=Poppins:wght@100&family=Quicksand:wght@300;400;600&family=Work+Sans:ital,wght@0,100;0,300;1,200;1,600&display=swap');
+/* font-family: 'Libre Bodoni', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Work Sans', sans-serif; */
+/* font-family: 'Libre Bodoni', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Work Sans', sans-serif; */
+.news-main{
+    margin: 20px 10vw;
+    padding: 10px 10px;
+    background-color: var(--main-form-color);
+    border-radius: 10px;
+    color: aliceblue;
+    
+}
+.news-title{
+    font-family: 'Work Sans', sans-serif; 
+    padding: 10px 0px;
+}
+.news-text{
+    font-size:large;
+    font-family: 'Work Sans', sans-serif; 
+}
+.news-date{
+    position: relative;
+    left: 85%;
+    font-size: small;
+    font-family: 'Quicksand', sans-serif;
+}

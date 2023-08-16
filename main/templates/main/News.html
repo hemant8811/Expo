@@ -1,0 +1,26 @@
+{% extends 'main/base.html' %}
+{% load crispy_forms_tags %}  
+{% load static %}
+
+{% block main %}
+<h1 class="myfont title-middle">News</h1>
+{% if user.is_superuser%}
+    <h1 class="myfont">Post News</h1>
+    <form action="" method="post">
+        {% csrf_token %}
+        {{form|crispy}}
+        <button class="register-button hover-button" type="submit">Submit</button>
+    </form>
+{% endif %}
+
+{% for news in news %}
+    <div class="news-main">
+        <div class="news-title"><h2>{{news.title}}</h2></div>
+        <div class="news-text">{{news.text}}</div>
+        <div class="news-date">{{news.post_date}}</div> 
+    </div>
+    
+{% endfor %}
+     
+{% endblock main %}
+    

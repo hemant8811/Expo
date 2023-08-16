@@ -1,0 +1,43 @@
+{% extends 'main/base.html' %}
+{% load static %}
+    {% block main %}
+    <main>
+        <div class="container">
+            <div class="video-content">
+                <video  autoplay  muted  loop>
+                    <source src="{% static 'main/video/expo.mp4'%}" type="video/mp4">
+                </video>
+                <div class="video-text">
+                    <h1>Upcoming Event</h1>
+                    <h2>Robot Expo November 2022</h2>
+                    <p> Participation Registretion <a href="">Register</a></p>
+                    <p>Visitors Registretion <a href="">Register</a></p>
+                </div>
+            </div>
+            <div class="slider-content">
+                <div class="slider">
+                    <div class="slide">
+                        <img  class="sliderimg1 " src="{% static 'main/Images/slider2.jpg'%}" alt="slider">
+                        <img  class="sliderimg2 " src="{% static 'main/Images/slider3.jpg'%}" alt="slider">
+                        <img class="sliderimg3 " src="{% static 'main/Images/slider1.jpg'%}" alt="slider">
+                    </div>
+                </div>
+                <div class="content">
+                    <h1>Robotics India MyExpo</h1>
+                    <p class="text1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo blanditiis non magnam ad, omnis dolores numquam dicta molestiae libero ea odit quia amet dignissimos vel optio. Ullam cupiditate neque eaque ex in voluptatum assumenda ratione itaque non, quas maiores. Officia, fuga. Assumenda repellat rerum repellendus sed alias earum laboriosam, maiores suscipit dolorum quia illum architecto itaque nesciunt magnam. Unde sapiente, nam illum enim, odio ex iusto maiores fuga laboriosam ullam quae qui dicta sint, vero deleniti! Doloribus libero, ea et vero impedit, aut accusamus dignissimos incidunt laborum repudiandae explicabo ducimus doloremque voluptatibus unde consequatur ad. Pariatur odio minima eos obcaecati.</p>
+                </div>
+            </div>
+            <div class="sponsers">
+                <h1>Sponsers</h1>
+                <div class="sponsers-images">
+                    <img src="{% static 'main/Images/sponser1.png'%}" alt="sponser1">
+                    <img src="{% static 'main/Images/sponser2.png'%}" alt="sponser2">
+                    <img src="{% static 'main/Images/sponser3.png'%}" alt="sponser3">
+                    <img src="{% static 'main/Images/sponser4.png'%}" alt="sponser4">
+                </div>
+            </div>
+            
+        </div>
+        {% endblock main %}
+    </main>
+    

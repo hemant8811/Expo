@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni&family=Poppins:wght@100&family=Quicksand:wght@300;400;600&family=Work+Sans:ital,wght@0,100;0,300;1,200;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni&family=Poppins:wght@100&family=Quicksand:wght@300;400;600&family=Work+Sans:ital,wght@0,100;0,300;1,200;1,600&display=swap');
+/* font-family: 'Libre Bodoni', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Work Sans', sans-serif; */
+/* font-family: 'Libre Bodoni', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Work Sans', sans-serif; */
+.usergrid{
+    display: grid;
+    grid-template-columns: 40vw 40vw 20vw;
+    font-family: 'Quicksand', sans-serif;
+    padding: 10px 40px;
+    font-weight: bolder;
+    border: 2px solid black;
+}
+.userinfo{
+    display: grid;
+    font-family: 'Quicksand', sans-serif;
+    grid-template-columns: 40vw 40vw 0vw;
+    padding: 10px 40px;
+}
+.user-count{
+    display: flex;
+    font-family: 'Quicksand', sans-serif;
+    padding: 30px;
+}
+.user-count h2{
+    width: 40vw;
+}
+.number{
+    color:red;
+}
